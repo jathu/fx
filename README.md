@@ -47,7 +47,7 @@ $ brew install jathu/fx/fx
 
 ### Linux
 
-Checkout the releases https://github.com/jathu/fx/releases. A better solution, preferably using a package manager is TBD. Contributions are welcome!
+Checkout the releases https://github.com/jathu/fx/releases. A better solution, preferably using a package manager is coming soon. Contributions are welcome!
 
 ## What is it?
 
