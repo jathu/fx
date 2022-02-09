@@ -320,7 +320,7 @@ options:
 
 * __name__
   * `Type: string` · `Default: ""` · `required`
-  * The name of the argument. The names is used internally to differentiate positional arguments and in the command help menu.
+  * The name of the argument. The name is used internally to differentiate positional arguments and in the command help menu.
 * __description__
   * `Type: string` · `Default: ""` · `required`
   * Detailed description of the argument.
@@ -477,7 +477,7 @@ fx will handle all the argument parsing and validations based on the command des
 The keys of the JSON is the name of the option and arguments. The value of the JSON maps to the value of the option/argument. The value is an dictionary of the form:
 
   * __value:__ The value of the option/argument. The type corresponds to the specified type.
-  * __user_set:__ A boolean value indicating if the option/argument was explicitly set by the user. True implies it was and False implies that is is falling back on some default value.
+  * __user_set:__ A boolean value indicating if the option/argument was explicitly set by the user. True implies it was and False implies that it is falling back on some default value.
 
 __Example:__
 ```python3
