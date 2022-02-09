@@ -7,6 +7,9 @@ fx is a workspace tool manager. It allows you to create consistent, discoverable
 fx is still in beta and is subject to breaking changes until the [descriptor](src/protobuf/fx/descriptor) is bumped to v1 (currently v1beta).
 
 <!--ts-->
+   * [Installation](#installation)
+      * [macOS](#macos)
+      * [Linux](#linux)
    * [What is it?](#what-is-it)
       * [Step-by-Step Example](#step-by-step-example)
       * [Use Cases](#use-cases)
@@ -29,9 +32,22 @@ fx is still in beta and is subject to breaking changes until the [descriptor](sr
       * [Frequently Used Commands](#frequently-used-commands)
       * [Third Party Libraries](#third-party-libraries)
 
-<!-- Updated: Tue Feb  8 06:34:56 PST 2022 -->
+<!-- Updated: Tue Feb  8 18:27:14 PST 2022 -->
 
 <!--te-->
+
+## Installation
+
+### macOS
+
+```shell
+$ brew tap jathu/fx https://github.com/jathu/fx
+$ brew install jathu/fx/fx
+```
+
+### Linux
+
+Checkout the releases https://github.com/jathu/fx/releases. A better solution, preferably using a package manager is TBD. Contributions are welcome!
 
 ## What is it?
 
