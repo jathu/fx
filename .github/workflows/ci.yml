@@ -33,7 +33,7 @@ jobs:
         run: bazel test //... --platforms=//:${{ matrix.platform }}
   lint:
     name: lint
-    runs-on: ubuntu-20.04
+    runs-on: macos-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
