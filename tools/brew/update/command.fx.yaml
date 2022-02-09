@@ -1,0 +1,9 @@
+descriptor_version: v1beta
+synopsis: Bump Homebrew version.
+arguments:
+  - name: version
+    description: The version to bump fx.rb to.
+    string_value:
+      required: true
+runtime:
+  run: ruby $FX_WORKSPACE_DIRECTORY/tools/brew/update/main.rb
