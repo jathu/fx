@@ -4,7 +4,7 @@ load("@rules_pkg//pkg:pkg.bzl", "pkg_tar")
 exports_files([
     ".clang-tidy",
     ".clang-format",
-    "fx.rb"
+    "fx.rb",
 ])
 
 # Run fx in development mode.
